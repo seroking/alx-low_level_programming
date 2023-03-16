@@ -8,7 +8,7 @@
 int main(void)
 {
 		/* This is a block comment */
-		char str[] = "Programming is like building a multilingual puzzle";
+		char str[] = "\"Programming is like building a multilingual puzzle";
 			
 			/*
 			 * 	 * This is another block comment
