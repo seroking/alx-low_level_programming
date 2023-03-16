@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main() {
-	    
+int main(void) {
+	    \\ print with pu a string
 	         char text[]="\"Programming is like building a multilingual puzzle";
 		 puts(text);
 	    
