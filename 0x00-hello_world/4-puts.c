@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/* IDK 
-* main functions success */
+/* main - Entry point
+ *Return: Always 0 (Success) */
 int main(void)
 {
 	/* This is a block comment */
