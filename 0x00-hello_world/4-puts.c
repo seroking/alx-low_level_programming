@@ -7,10 +7,14 @@
  *     */
 int main(void)
 {
-	    /* print with puts a string */
-	    char text[] = "\"Programming is like building a multilingual puzzle\"";
-	        puts(text);
-
-		    return (0);
+		/* This is a block comment */
+		char str[] = "Programming is like building a multilingual puzzle";
+			
+			/*
+			 * 	 * This is another block comment
+			 * 	 	 * Print the string to the console using puts
+			 * 	 	 	 */
+			puts(str);
+				
+				return (0);
 }
-
