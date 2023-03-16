@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /* IDK */
+/* main functions success */
 int main(void)
 {
 	/* This is a block comment */
