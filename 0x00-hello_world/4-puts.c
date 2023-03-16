@@ -1,8 +1,10 @@
-
 #include <stdio.h>
 
-/**main - Entry point
- Return: Always 0 (Success) **/
+/**
+ *  * main - Entry point
+ *   *
+ *    * Return: Always 0 (Success)
+ *     */
 int main(void)
 {
 	    /* print with puts a string */
@@ -11,3 +13,4 @@ int main(void)
 
 		    return (0);
 }
+
