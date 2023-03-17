@@ -11,12 +11,12 @@ int main(void)
 	int low_letter = 'a';
 	int up_letter = 'A';
 
-	while (low_letter < 'z')
+	while (low_letter <= 'z')
 	{
 		putchar (low_letter);
 		low_letter++;
 	}
-	while (up_letter < 'Z')
+	while (up_letter <= 'Z')
 	{
 		putchar(up_letter);
 		up_letter++;
