@@ -16,5 +16,6 @@ int main(void)
 		low_letter++;
 	while (up_letter < 'Z')
 		putchar(up_letter);
-	putchar("\n")
+	putchar('\n');
+	return (0);
 }
