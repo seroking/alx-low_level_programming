@@ -1,20 +1,18 @@
-# include <stdio.h>
+#include <stdio.h>
+#include <unistd.h>
 /**
- * main - rogram that prints the alphabet in lowercase, and then in uppercase,
- * followed by a new line
- * Return: 0 (Success)
+* main - Entry point
+* Descriptions: prints all single digit numbers\n
+* Return: Always 0 (Success)
 */
 int main(void)
 {
-	int a = 0;
+	int a;
 
-
-	while (a <= 10)
+	for (a = 0; a < 10; a++)
 	{
-		putchar(a);
-		a++;
+	putchar(a + '0');
 	}
 	putchar('\n');
 	return (0);
 }
-
