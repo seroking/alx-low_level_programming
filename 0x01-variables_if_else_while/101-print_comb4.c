@@ -1,37 +1,33 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - A program that prints all possible different
- * combinations of three digits.
- * Return: 0 (Success)
-*/
+ * main - prints all possible different combinations of three digits
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-        int x = '0';
-        int y, z;
+	int n, m, l;
 
-        for (; x <= '8'; x++)
-        {
-                for (y = x; y <= '8'; y++)
-                {
-			for (z = y; z <= '9'; z++)
+	for (n = 48; n < 58; n++)
+	{
+		for (m = 49; m < 58; m++)
+		{
+			for (l = 50; l < 58; l++)
 			{
-				if (x < y)
+				if (l > m && m > n)
 				{
-					putchar(x);
-					putchar(y);
-					putchar(z);
-					if (x == '7' && y == '8' && z == '9')
-					{
-						putchar('\n');
-					} else
+					putchar(n);
+					putchar(m);
+					putchar(l);
+					if (n != 55 || m != 56)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-                        }
-                }
-        }
-        return (0);
+			}
+		}
+	}
+	putchar('\n');
+	return (0);
 }
-
