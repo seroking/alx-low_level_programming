@@ -8,6 +8,5 @@
 
 int _islower(int c)
 {
-	low = islower(c);
-	printf("%s", low )
+	printf("%d", islower(c));
 }
