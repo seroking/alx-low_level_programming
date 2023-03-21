@@ -1,11 +1,17 @@
 #include <stdio.h>
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+*print_alphabet - prints alphabet
+*Return: No return.
+*/
+
+void print_alphabet(void)
 {
-	
+	char a = 'a';
+
+	while (a <= 'z')
+	{
+	printf("%c", a);
+	a++;
+	}
+	putchar('\n');
 }
