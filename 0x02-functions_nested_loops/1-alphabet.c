@@ -4,7 +4,10 @@
 *print_alphabet - prints alphabet
 *Return: No return.
 */
+int main(void)
+{
 
+}
 void print_alphabet(void)
 {
 	char a = 'a';
