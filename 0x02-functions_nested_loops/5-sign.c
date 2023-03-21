@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
 * print_sign - a fucntion that prints the sign of a number
 * @n: number input
@@ -23,4 +23,5 @@ int print_sign(int n)
 		putchar('-');
 		return (-1);
 	}
+	return (0);
 }
