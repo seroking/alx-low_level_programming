@@ -2,8 +2,8 @@
 
 int print_last_digit(int r)
 {
-	r = (r % 10);
+	int n = (r % 10);
 
-	putchar ('r');
+	printf("%d",n);
 	return (0);
 }
