@@ -1,13 +1,13 @@
 #include "main.h"
 
-int _abs(int n)
+int _abs(int r)
 {
-	if (n >= 0)
+	if (r >= 0)
 	{
-		return (n);
+		return (r);
 	}
 	else
 	{
-		return (n * -1);
+		return (r * -1);
 	}
 }
