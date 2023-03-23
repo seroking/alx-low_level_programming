@@ -4,13 +4,15 @@
  * @n : variable
  * Return: Always 0.
  */
-void print_line(int n)
-{
-	int x;
-
-	for (x = 0; x <= n; x++)
-	{
-		_putchar('_');
+void print_line(int n) {
+	if (n <= 0) {
+		putchar('\n');
+		return;
 	}
-	_putchar('\n');
+
+	for (int i = 0; i < n; i++) {
+		putchar('_');
+	}
+
+	putchar('\n');
 }
