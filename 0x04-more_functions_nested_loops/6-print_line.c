@@ -6,7 +6,7 @@
  */
 void print_line(int n)
 {
-	int x ;
+	int x;
 
 	for (x = 0; x <= n; x++)
 	{
