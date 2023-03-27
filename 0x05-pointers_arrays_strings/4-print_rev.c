@@ -13,7 +13,7 @@ void print_rev(char *s)
 	int len = strlen(s);
 	int i;
 
-	for (int i = 0; i < len / 2; i++)
+	for (i = 0; i < len / 2; i++)
 	{
 		char x = s[i];
 		s[i] = s[len - i - 1];
