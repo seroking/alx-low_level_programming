@@ -3,12 +3,20 @@
 #include <string.h>
 
 /**
- * main - check the code
- *
+ * print_rev - check the code
+ * @s : parametre string
  * Return: Always 0.
  */
 
 void print_rev(char *s)
 {
-	printf("%s", strrev(s));
+	int len = strlen(s);
+	int i;
+
+	for (int i = 0; i < len / 2; i++)
+	{
+		char x = s[i];
+		s[i] = s[len - i - 1];
+		s[len - i - 1] = x;
+	}
 }
