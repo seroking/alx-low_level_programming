@@ -2,15 +2,15 @@
 
 void puts2(char *str)
 {
-	int i = 0;
+	int i = -1;
 	int c = 0;
 	while (str[i] != '\0')
 	{
 		i++;
 	}
-	int len = i - 1;
 
-	for (c = 0; c <= len; c++)
+
+	for (c = 0; c <= i; c++)
 	{
 		if (c % 2 == 0)
 		{
