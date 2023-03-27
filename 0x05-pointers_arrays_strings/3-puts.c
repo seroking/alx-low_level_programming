@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * _puts - check the code
+ * @str : parametre
  * Return: Always 0.
  */
 
