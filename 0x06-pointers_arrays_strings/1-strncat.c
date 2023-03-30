@@ -4,7 +4,7 @@
  * *_strncat - check the code
  * @dest : pointer 1
  * @src : pointer 2
- * @n :
+ * @n : strncpy parametre
  * Return: Always 0.
  */
 
