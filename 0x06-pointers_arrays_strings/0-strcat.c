@@ -4,7 +4,7 @@
 /**
  * *_strcat - check the code
  * @dest : pointer 1
- * src : pointer 2
+ * @src : pointer 2
  * Return: Always 0.
  */
 
