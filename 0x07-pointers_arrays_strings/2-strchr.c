@@ -4,7 +4,7 @@
 /**
  * *_strchr - check the code
  * @s : pointer
- * c : char
+ * @c : char
  * Return: Always 0.
  */
 
