@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  *_strncmp - compares two strings
@@ -45,3 +45,4 @@ char *_strstr(char *haystack, char *needle)
 	}
 	return (NULL);
 }
+

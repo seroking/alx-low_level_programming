@@ -1,25 +1,24 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
- *print_chessboard - prints a chess board
- *@a: an array of pointers
- *Return: nothing void
+ * print_chessboard - a function that print chessboard
+ * @a: two dim array
+ * Return: Void return nothing
  */
 
 void print_chessboard(char (*a)[8])
 {
-	int i = 0;
-	int j = 0;
+	int i, j;
+	int column = sizeof((a)[0]);
+	int total = sizeof(a) * column;
+	int row = total / column;
 
-	while (i < 8)
+	for (i = 0; i < row; i++)
 	{
-		j = 0;
-		while (j < 8)
+		for (j = 0; j < column; j++)
 		{
 			_putchar(a[i][j]);
-			j++;
 		}
 		_putchar('\n');
-		i++;
 	}
 }
