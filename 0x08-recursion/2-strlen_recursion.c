@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _strlen_recursion - check the code
+ * strlen_recursion - check the code
  * @s : pointer
  * Return: Always 0.
  */
@@ -12,7 +12,7 @@ int strlen_recursion(char *s)
 
 	if (*s == '\0')
 	{
-		return(x);
+		return (x);
 	}
 	if (*s != '\0')
 	{
