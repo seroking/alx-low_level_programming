@@ -6,7 +6,7 @@
  * Return: Always 0.
  */
 
-int strlen_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	int x = 0;
 
@@ -17,7 +17,7 @@ int strlen_recursion(char *s)
 	if (*s != '\0')
 	{
 		x++;
-		strlen_recursion(s);
+		_strlen_recursion(s);
 	}
 	return (0);
 }
