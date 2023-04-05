@@ -10,7 +10,7 @@ void _print_rev_recursion(char *s)
 	{
 		return;
 	}
-	_putcha(s - 1);
+	_putchar(*(s - 1));
 	if (*(s - 1) != '\0')
 	{
 		_print_rev_recursion(s - 1);
