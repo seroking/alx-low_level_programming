@@ -19,4 +19,5 @@ int strlen_recursion(char *s)
 		x++;
 		strlen_recursion(s);
 	}
+	return (0);
 }
