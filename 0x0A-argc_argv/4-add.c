@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
 {
 	int sum = 0;
 	int i;
+	int num;
 
 	if (argc == 1)
 	{
@@ -31,7 +32,7 @@ int main(int argc, char *argv[])
 				return 1;
 			}
 		}
-		int num = atoi(argv[i]);
+		num = atoi(argv[i]);
 		if (num > 0)
 		{
 			sum += num;
