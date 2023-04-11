@@ -14,10 +14,6 @@ char *_strdup(char *str)
 	int len = strlen(str);
 	char *str_dup;
 
-	if (_strdup(str) == NULL)
-	{
-		return(NULL);
-	}
 	if (str == NULL)
 	{
 		return (NULL);
