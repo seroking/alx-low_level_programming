@@ -27,7 +27,7 @@ char *_strdup(char *str)
 	}
 
 	strcpy(str_dup, str);
-	if (_strdup(str) == NULL)
+	if (_strdup(NULL))
 	{
 		return (NULL);
 	}
