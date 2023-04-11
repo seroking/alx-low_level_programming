@@ -9,14 +9,22 @@ include <string.h>
 
 char *str_concat(char *s1, char *s2)
 {
-
-	int i;
-	int j;
 	int len1 = strlen(s1);
 	int len2 = strlen(s2);
-	 s3 = malloc((len1 + len2) * sizeof(char));
 
-	for (i = 0; i < len1; i++)
+	if (s1 == NULL)
 	{
-		
+		s1 = '\0';
 	}
+	if (s2 == NULL)
+	{
+		s2 = '\0';
+	}
+
+
+
+	char *str3 = (char*)malloc((len1 + len2 + 1) * sizeof(char));
+
+	str3 = strcat(s1, s2);
+	return (str3);
+}
