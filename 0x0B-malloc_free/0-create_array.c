@@ -4,14 +4,13 @@
  * create_array - prints buffer in hexa
  * @size : the address of memory to print
  * @c : the size of the memory to print
- *
  * Return: char.
  */
 
 char *create_array(unsigned int size, char c)
 {
 
-	int i;
+	unsigned int i;
 
 	char* arr = (char*) malloc(size * sizeof(char));
 	if (size == 0)
