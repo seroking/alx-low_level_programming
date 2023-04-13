@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <errno.h>
 /**
  * malloc_checked - check the code
  * @b : parametre
@@ -12,8 +12,7 @@ void *malloc_checked(unsigned int b)
 
 	if (ptr == NULL)
 	{
-		return(98);
+		printf("98");
 	}
 	return (ptr);
-
 }
