@@ -1,7 +1,6 @@
-#ifndef ABS_F
-#define ABS_F
+#ifndef OBJECT_MACRO_F
+#define OBJECT_MACRO_F
 
-#define ABS(x) (if ((x) < 0) { -(x); } else { (x); })
-
+#define ABS(x) ((x) < (0) ? -(x) : (x))
 
 #endif
