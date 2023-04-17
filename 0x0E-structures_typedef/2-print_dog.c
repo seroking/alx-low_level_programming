@@ -3,6 +3,10 @@
 #include <stdio.h>
 void print_dog(struct dog *d)
 {
+	if (!(d))
+	{
+		printf("%s","");
+	}
 	if (d)
 	{
 		if (d->name == NULL)
@@ -14,9 +18,5 @@ void print_dog(struct dog *d)
 			d->owner = "(nil)";
 		}
 		printf("Name : %s\nAge : %.2f\nOwner : %s\n", d->name, d->age, d->owner);
-	}
-	else if (d == NULL)
-	{
-		print("");
 	}
 }
