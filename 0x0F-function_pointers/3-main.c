@@ -2,31 +2,31 @@
 
 /**
  * main - entry point of the program
- * @argc: the number of arguments
- * @argv: array of arguments passed in the command line
+ * @argc : the number of arguments
+ * @argv : array of arguments passed in the command line
  * Return: 0 on success, non zero value on error
  */
 
-int main(int ac, char **av)
+int main(int argc, char **argv)
 {
 	int a;
 	int b;
 	char *op;
 	int (*operation)(int, int);
 
-	if (ac != 4)
+	if (argc != 4)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	a = atoi(av[1]);
-	op = av[2];
+	a = atoi(argv[1]);
+	op = argv[2];
 	if (op[1])
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	b = atoi(av[3]);
+	b = atoi(argv[3]);
 	operation = get_op_func(op);
 	if (!operation)
 	{
