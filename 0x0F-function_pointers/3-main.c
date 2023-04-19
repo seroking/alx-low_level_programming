@@ -1,7 +1,7 @@
 #include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
-int main(int argc , char argv[])
+int main(int argc , char *argv[])
 {
 	int a;
 	int b;
@@ -14,9 +14,9 @@ int main(int argc , char argv[])
 		printf("Error");
 		exit(98);
 	}
-	a = atoi(av[1]);
-	op = av[2];
-	b = atoi(av[3]);
+	a = atoi(argv[1]);
+	op = argv[2];
+	b = atoi(argv[3]);
 	operation = get_op_func(op);
 	if (!operation)
 	{
