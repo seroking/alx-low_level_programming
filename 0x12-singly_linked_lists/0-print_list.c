@@ -2,10 +2,9 @@
 
  /**
  * print_list - Entry point
- * @h: pointer to list_t
- * Return: index size_t
+ * @h: pointer
+ * Return: x (the index)
  */
-
 
 size_t print_list(const list_t *h)
 {
