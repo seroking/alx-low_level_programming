@@ -1,4 +1,5 @@
-#include "main.h"
+#include "list.h"
+#include <stddef.h>
 
 /**
  * print_list - check the code
@@ -20,10 +21,10 @@ size_t print_list(const list_t *h)
 		}
 		else
 		{
-			printf("[%d] %s", i, h->str);
+			printf("[%u] %s\n", h->len, h->str);
 		}
-		i++;
 		h = h->next;
+		x++;
 	}
 
 }
