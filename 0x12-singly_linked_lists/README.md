@@ -1,1 +1,1 @@
-TASKS FOR SINGLY LINKED LIST
+task singly linked lists
