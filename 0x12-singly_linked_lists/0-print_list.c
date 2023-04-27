@@ -1,10 +1,10 @@
 #include "lists.h"
 
- /**
- * print_list - Entry point
- * @h: pointer
- * Return: x (the index)
- */
+/**
+* print_list - Entry point
+* @h: pointer
+* Return: x (the index)
+*/
 
 size_t print_list(const list_t *h)
 {
@@ -24,4 +24,3 @@ size_t print_list(const list_t *h)
 
 	return (x);
 }
-
