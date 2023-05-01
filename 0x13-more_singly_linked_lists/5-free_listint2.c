@@ -17,7 +17,7 @@ void free_listint2(listint_t **head)
 		return;
 	}
 
-	while (head)
+	while (*head)
 	{
 
 		var = (*head)->next;
@@ -26,5 +26,5 @@ void free_listint2(listint_t **head)
 
 		*head = var;
 	}
-	*head = NULL;
+	head = NULL;
 }
