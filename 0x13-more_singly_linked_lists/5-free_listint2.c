@@ -23,7 +23,8 @@ void free_listint2(listint_t **head)
 		var = (*head)->next;
 
 		free(*head);
+
 		*head = var;
 	}
-	head = NULL;
+	*head = NULL;
 }
