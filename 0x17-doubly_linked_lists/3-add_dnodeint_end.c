@@ -1,5 +1,13 @@
 #include "lists.h"
 
+
+/**
+ * add_dnodeint_end - add node at the end
+ * @head : head
+ * @n : value to add
+ * Return: Always EXIT_SUCCESS.
+ */
+
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 
@@ -14,7 +22,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 
 	h = *head;
 
-	if(h != NULL)
+	if (h != NULL)
 	{
 
 		while (h->next != NULL)
