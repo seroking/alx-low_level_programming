@@ -31,14 +31,14 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (1);
 	}
 
-	new_hash_node = malloc(sizeof(*new_hash_node));
-	if (!new_hash_node)
+	new_node = malloc(sizeof(*new_node));
+	if (!new_node)
 		return (0);
 
-	new_hash_node->key = strdup(key);
-	new_hash_node->value = strdup(value);
+	new_node->key = strdup(key);
+	new_node->value = strdup(value);
 
-	new_hash_node->next = ht->array[indx];
-	ht->array[indx] = new_hash_node;
+	new_node->next = ht->array[idx];
+	ht->array[idx] = new_hash_node;
 	return (1);
 }
