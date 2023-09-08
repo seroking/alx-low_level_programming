@@ -2,11 +2,11 @@
 
 /**
 * hash_table_set - add an element to hash table
-*
+* @ht : hash table
 * @key : the key
 * @value : the value
 *
-* return : 1 if succeed or 0
+* Return: 1 if succeed or 0
 */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
@@ -27,8 +27,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (tmp)
 	{
 		free(tmp->value)
-		tmp->value =strdup(value);
-		return(1)
+		tmp->value = strdup(value);
+		return (1);
 	}
 
 	new_hash_node = malloc(sizeof(*new_hash_node));
