@@ -3,10 +3,10 @@
 /**
 * key_index - function that give the index of a chosen key
 *
-* @key : the key
-* @size : size of the table
+* @key: the key
+* @size: size of the table
 *
-* return : index of the key
+* Return: index of the key
 */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {
