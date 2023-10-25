@@ -8,7 +8,7 @@ all: $(OBJ)
         $(CC) $(OBJ) -o $(NAME)
 
 clean:
-        $(RM) *~ .#* .*swp school
+        $(RM) *~ .*.swp $(NAME)
 
 oclean:
         $(RM) $(OBJ)
