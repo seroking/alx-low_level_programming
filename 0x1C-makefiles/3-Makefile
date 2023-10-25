@@ -1,8 +1,12 @@
+# variables
+
 CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
+
+#Rules
 
 all: $(OBJ)
         $(CC) $(OBJ) -o $(NAME)
