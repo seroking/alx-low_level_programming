@@ -11,9 +11,8 @@ clean:
         $(RM) *~ .#* .*swp school
 
 oclean:
-        $(RM) *.c
+        $(RM) $(OBJ)
 
-fclean:
-        $(RM) *~ .#* .*swp school $(OBJ)
+fclean: clean oclean
 
 re: fclean all
